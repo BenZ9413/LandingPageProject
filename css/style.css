@@ -1,18 +1,25 @@
 body {
-    display: flex;
-    flex-direction: column;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin: 0px;
 }
 
+/*Header-Section*/
+
 header {
+    height: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 24px;
-    padding: 15px 150px;
+}
+
+.containerHeader {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #headerLogo {
@@ -34,15 +41,19 @@ a,
     font-size: 18px;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-}
+/*Content-Group1*/
 
 .content1 {
-    display: flex;
     background-color: #1F2937;
-    padding: 100px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.containerContentOne {
+    width: 75%;
+    display: flex;
 }
 
 .textContentOne {
@@ -73,33 +84,32 @@ a,
     border-radius: 12px;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 150px;
-    background-color: #1F2937;
-}
+/*Content-Group 2*/
 
 .content2 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px 180px;
+    justify-content: center;
+    min-height: 500px;
+}
+
+.containerContentTwo {
+    width: 60%;
 }
 
 .headerContentTwo {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
-    padding: 50px;
 }
 
 .pictures {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     gap: 50px;
-    margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .picWithText {
@@ -119,13 +129,19 @@ footer {
     border-radius: 12px;
 }
 
+/*Content-Group 3*/
+
 .content3 {
-    padding: 150px 250px;
     background-color: #E5E7EB;
     color: #1F2937;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    min-height: 400px;
+}
+
+.containerContentThree {
+    width: 60%;
 }
 
 .textContentThree {
@@ -137,24 +153,27 @@ footer {
 
 .citationSource {
     font-weight: 900;
-    align-self: flex-end;
+    text-align: end;
     font-size: 24px;
 }
 
+/*Content-Group 4*/
+
 .content4 {
-    padding: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 400px;
 }
 
 .containerContentFour {
+    width: 60%;
     background-color: #3882F6;
-    padding: 50px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 12px;
+    padding: 50px 100px;
 }
 
 .leftContentFour {
@@ -177,8 +196,18 @@ footer {
     padding: 5px 20px;
     background-color: #3882F6;
     font-size: 18px;
+    font-weight: bold;
     color: #E5E7EB;
     border: 2px solid #E5E7EB;
     border-radius: 12px;
-    margin-left: 100px;
+}
+
+/*Footer*/
+
+footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
 }

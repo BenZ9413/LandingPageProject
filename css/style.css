@@ -140,3 +140,45 @@ footer {
     align-self: flex-end;
     font-size: 24px;
 }
+
+.content4 {
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerContentFour {
+    background-color: #3882F6;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.leftContentFour {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerContentFour {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.textContentFour {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.signUpTwo {
+    padding: 5px 20px;
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    border-radius: 12px;
+    margin-left: 100px;
+}
